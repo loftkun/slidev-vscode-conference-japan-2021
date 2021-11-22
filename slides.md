@@ -1,7 +1,7 @@
 ---
 theme: seriph
 title: VSCode + Markdownで発表スライドや書籍も書いちゃおう！
-download: false
+download: true
 lineNumbers: true
 background: https://source.unsplash.com/collection/94734566/1920x1080
 class: text-center
@@ -14,6 +14,38 @@ class: text-center
 2021/11/20 VS Code Conference Japan 2021
 
 @loftkun ( 甲斐 新悟 )
+
+---
+
+<h2>はじめに</h2>
+
+このスライドは、2021/11/20開催の [VS Code Conference Japan 2021](https://vscode.connpass.com/event/221961/) にて、私[@loftkun](https://twitter.com/loftkun)のセッション`ドキュメント作成だけではもったいない！VSCode + Markdownで発表スライドや書籍も書いちゃおう！`で使用したものです
+
+<div class="grid grid-cols-[50%,50%] gap-4"><div>
+
+本資料(SPA版)
+
+<center>
+
+[<img src="/netlify.png" class="h-37">](https://loftkun-slidev-vscode-conference-japan-2021.netlify.app/)
+
+</center>
+
+</div><div>
+
+YouTubeアーカイブ
+
+<center>
+
+<iframe width="280" height="150" src="https://www.youtube.com/embed/J2li3qYgu9U?start=3397" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+</center>
+
+</div></div>
+
+❗ PDF( Speaker Deck / slideshare )版をご覧の方へ : ぜひ[SPA版](https://loftkun-slidev-vscode-conference-japan-2021.netlify.app)をご覧ください :
+
+SPA版ではSlidevツールバー(画面下部に表示されます)や、Webアプリとしての機能( YouTube埋め込みやGIFアニメの再生 )を体験いただけます。(PDF版ではアニメーションは静止画像となってしまいます)
 
 ---
 
@@ -50,11 +82,11 @@ class: text-center
 
 <div class="grid grid-cols-[30%,70%] gap-4"><div>
 
-<img src="/ex280.png"/>
+[<img src="/ex280.png"/>](https://rhtapps.redhat.com/certifications/badge/verify/BBDH42VN3CSJRXWN6CFVNWD4NIAEQU3CUPSQX2KSDXT6RW46LQ3USGMBTDNSOFVX22WYNJ63KCC3BBTAOIVCQWO7U3Z7NRP66BA673I=)
 
 </div><div>
 Twitter : <img src="/qr_code.png" class="h-34 inline"/>
-本資料 : <img src="/netlify.png" class="h-34 inline"/>
+本資料(SPA) : <img src="/netlify.png" class="h-34 inline"/>
 
 </div></div>
 
@@ -267,7 +299,7 @@ Markdownでスライドを記述できるエンジニア向けプレゼンテー
 
 <div class="grid grid-cols-[65%,35%] gap-4"><div>
 
-![](/slidev/01.png)
+<img src="/slidev/01.png" class="h-100">
 
 </div><div>
 
@@ -506,10 +538,9 @@ $ pandoc --from markdown --to epub3 book.md --output book.epub --toc --epub-cove
 
 <div class="grid grid-cols-[60%,40%] gap-10"><div>
 
-![](/epub/03.gif)
+epubの閲覧、mobi(Kindleで閲覧可能)への変換が可能です
 
-- epub 閲覧やmobiへの変換が可能
-- mobiはKindleで閲覧できます
+![](/epub/03.gif)
 
 </div><div>
 
